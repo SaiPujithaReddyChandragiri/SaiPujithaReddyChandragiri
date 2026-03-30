@@ -1,69 +1,90 @@
-👋 Hi, I’m Sai Pujitha Reddy Chandragiri!
+<div align="center">
 
-  * 🔭 I’m currently working on:
-    
-      Building scalable cloud solutions and sharpening my expertise in AWS services, DevOps practices, and automation frameworks. My latest project involves enhancing observability for cloud-native applications using the Elastic Stack.
-      
-  * 🌱 I’m currently learning:
-    
-  Advanced AWS architectures and DevOps tools like Puppet, Chef, and Jenkins to further optimize automation and infrastructure management.
+```
+██████╗ ██╗   ██╗     ██╗██╗
+██╔══██╗██║   ██║     ██║██║
+██████╔╝██║   ██║     ██║██║
+██╔═══╝ ██║   ██║██   ██║██║
+██║     ╚██████╔╝╚█████╔╝██║
+╚═╝      ╚═════╝  ╚════╝ ╚═╝
+```
 
-  * 💁🏼 worked on :
-  1. Automated Cloud Migration Toolkit
+### AI Engineer · Python · Backend · LLM Systems
 
-    Overview:
-    Led the development of a phased cloud migration approach to streamline on-premises-to-cloud transitions. This project resulted in a 40% reduction in migration time by automating tasks and ensuring seamless execution.
-    
-    How I Did It:
-    	•	Assessment & Planning: Developed a migration planner using Python to analyze existing infrastructure. This tool automatically generated migration plans by evaluating workloads and dependencies.
-    	•	Implementation: Used Terraform and AWS SDKs to define Infrastructure as Code (IaC), ensuring consistent and replicable deployments. CI/CD pipelines were implemented using Jenkins for automated integration and deployment.
-    	•	Execution: Finalized the migrations by integrating monitoring tools to validate data integrity, operational security, and performance post-migration. Leveraged AWS services like CloudFormation and CloudWatch to track resources and performance metrics.
- 2. Cloud-Based Attendance Tracking System
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Location](https://img.shields.io/badge/Sunnyvale%2C_CA-gray?style=flat-square)](https://maps.google.com/?q=Sunnyvale,CA)
+![Open to Work](https://img.shields.io/badge/Open_to_Work-2ea44f?style=flat-square)
 
-        Overview:
-        Built a serverless attendance system using AWS Lambda, API Gateway, S3, and DynamoDB, improving operational efficiency by 25%. This project demonstrated my ability to use cloud-native technologies to automate processes and reduce overhead.
-        
-        How I Did It:
-        	•	Designed the architecture with a serverless approach to minimize costs and ensure scalability.
-        	•	Created RESTful APIs with AWS API Gateway to handle attendance submissions and validations in real time.
-        	•	Automated data ingestion and validation processes by integrating AWS Lambda functions with S3 storage and DynamoDB for secure and efficient data storage.
-        	•	Implemented real-time monitoring using AWS CloudWatch, ensuring quick identification and resolution of issues.
- 3. EduConnect: Dynamic Assignment Management Platform
+</div>
 
-        Overview:
-        Designed and deployed a platform for assignment submissions using MySQL, HTML, CSS, JavaScript, and PHP. This project supported over 500+ users and enhanced engagement by 20% with real-time notifications.
-        
-        How I Did It:
-        	•	Developed a responsive front-end using HTML, CSS, and JavaScript for an intuitive user experience.
-        	•	Created a robust back-end with PHP to handle user authentication, file uploads, and dynamic notifications.
-        	•	Used MySQL to store and retrieve assignment data efficiently, ensuring low-latency access for users.
-        	•	Deployed the application on cloud infrastructure to ensure scalability and reliability under heavy usage.
- 4. AWS APAC Solutions Architecture Virtual Experience
+---
 
-        Overview:
-        Designed a scalable hosting architecture based on AWS Elastic Beanstalk for a client experiencing rapid growth and slow response times.
-        
-        How I Did It:
-        	•	Architected a solution using Elastic Beanstalk, enabling automated environment scaling and improved application performance.
-        	•	Provided cost analysis and plain-language explanations to the client, ensuring they understood the benefits and pricing structure of the solution.
-        	•	Demonstrated the solution’s performance improvements through simulated tests, showcasing a clear ROI.
+## About me
 
-  * 👯 I’m looking to collaborate on:
+I'm an AI/ML and backend engineer with ~5 years of experience building production LLM systems, RAG pipelines, and data-intensive microservices. Most recently I built a multi-agent log intelligence platform at Natera using AWS Bedrock — no framework abstractions, raw API orchestration — that reduced MTTR by 80%.
 
-   Cloud migration projects, serverless architectures, and innovative tools that improve cloud security, monitoring, and scalability.
+I hold an MS in Computer Science from the University of Florida and I'm currently based in Sunnyvale, CA. Open to full-time roles in AI engineering, backend Python, or LLM infrastructure. **Visa sponsorship required (OPT/H1B).**
 
- * 🤔 I’m looking for help with:
+---
 
-Open-source contributions in cloud automation and gaining more insights into Kubernetes and distributed systems.
+## Tech stack
 
- * 💬 Ask me about:
-   
-Cloud migration strategies, AWS solutions, automation with Terraform, or even my journey as a first-generation female engineer pursuing a tech career in the U.S.
+```python
+stack = {
+    "languages":   ["Python", "Java", "SQL"],
+    "llm":         ["AWS Bedrock", "Anthropic Claude", "LangGraph", "RAG pipelines"],
+    "backend":     ["FastAPI", "Kafka", "PostgreSQL", "pgvector"],
+    "ml":          ["TensorFlow", "ConvLSTM", "CNN", "scikit-learn"],
+    "infra":       ["AWS", "Docker", "GitHub Actions", "SLURM / HiPerGator HPC"],
+    "testing":     ["pytest", "pytest-asyncio", "mypy", "ruff"],
+}
+```
 
-* 📫 How to reach me:
-  
-Connect with me on LinkedIn http://linkedin.com/in/sai-pujitha-reddy-chandragiri or shoot me an email at chandragiri.sai9966@gmail.com.
+---
 
-* ⚡ Fun fact:
-  
-I love combining my technical skills with creativity—whether it’s automating processes or experimenting with cloud-native solutions. Outside work, you might find me exploring new cuisines or solving puzzles!
+## Featured projects
+
+| Project | Stack | What it does |
+|---|---|---|
+| 🤖 [Multi-agent job assistant](#) | LangGraph · Claude API · FastAPI | Agentic pipeline: researches companies, drafts cover letters, tracks applications |
+| 📄 [AI resume tailor](#) | FastAPI · Anthropic SDK · PyMuPDF | Paste a JD → Claude rewrites your resume bullets to match |
+| 🔍 [Job search aggregator](#) | Python · pgvector · asyncio | Pulls from multiple job boards, deduplicates, ranks fit via vector similarity |
+| 🌾 [Crop yield predictor](#) | TensorFlow · ConvLSTM · SLURM | 96% accuracy on agricultural sensor time-series; trained on UF HiPerGator HPC |
+
+---
+
+## Work experience highlights
+
+**AI Engineer — Natera** *(San Carlos, CA · 2025–2026)*
+Built a multi-agent log intelligence platform on AWS Bedrock APIs. RAG pipeline with Titan embeddings + pgvector on PostgreSQL. Hierarchical chunking on 30,000+ line GitLab CI/CD artifacts. **80% MTTR reduction · 35% RAG accuracy improvement · 600+ environments indexed.**
+
+**Python Engineer — Sigma Analytics** *(Tampa, FL · 2024–2025)*
+Python microservices for missing field detection and deduplication in Kafka streams. FastAPI endpoints, pytest-driven 94% test coverage. **500+ events/sec throughput · sub-100ms API response.**
+
+**Research Assistant — University of Florida** *(Gainesville, FL · 2024)*
+CNN + ConvLSTM on multi-sensor agricultural time-series (soil quality, moisture, nitrogen, weather). Solved class imbalance via class weights. **96% accuracy · minority class recall 60% → 91%.**
+
+---
+
+## Currently building
+
+- 🔧 `job-agent` — LangGraph multi-agent pipeline (company researcher → cover letter writer → application tracker)
+- 📚 Sharpening DSA: arrays, sliding window, linked lists, trees for FAANG-level interviews
+- 🌱 Contributing to open-source Python / AI tooling
+
+---
+
+## GitHub stats
+
+<div align="center">
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff)
+
+</div>
+
+---
+
+<div align="center">
+<sub>Always open to interesting problems. If you're building something ambitious with LLMs or Python infrastructure — let's talk.</sub>
+</div>
